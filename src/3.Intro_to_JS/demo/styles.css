@@ -1,0 +1,22 @@
+body {
+  font: 1.2em sans-serif;
+}
+
+.tiles > div {
+  background: rgb(10, 10, 10);
+  color: white;
+  flex-basis: 100%;
+  padding: 10px 20px 15px;
+  margin: 10px 20px 10px 0;
+  border: 1px solid white;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="submit"] {
+  align-self: flex-start;
+  margin-top: 10px;
+}
